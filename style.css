@@ -2,9 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(53, 51, 51);
+}
+:root{
+    --dark: rgb(65, 61, 61);
+    --standout: rgb(87, 134, 132);
 }
 
 /* header style */
 header{
-    
+    width: 100%;
+    display: inline;
+    background: var(--dark);
+}
+header h1{
+    float: left;
+    color: var(--dark);
+    background: var(--standout);
+    margin-top: 5px;
+    padding-left: 5%;
+    padding-right: 10px;
+}
+nav{
+    margin-right: 5%;
+}
+nav li{
+float: right;
+display: inline-block;
+margin: 10px 0 0 5%;
+}
+nav a{
+    color: var(--standout);
+    font-size: 20px;
+
 }
