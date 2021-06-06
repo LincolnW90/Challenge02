@@ -34,3 +34,17 @@ header nav ul li a{
     color: var(--standout);
     font-size: 20px;
 }
+
+/* banner */
+.banner{
+    background-image: url(./assets/prism-background.jpg);
+    height: 200px;
+}
+.banner p{
+    float: right;
+    margin-top: 170px;
+    margin-right: 5%;
+    font-size: 20px;
+    background: var(--standout);
+    color: var(--dark);
+}
