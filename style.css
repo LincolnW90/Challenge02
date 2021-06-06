@@ -21,6 +21,7 @@ header h1{
     font-size: 36px;
     float: left;
     padding-top: 10px;
+    text-decoration: none;
 }
 header h1 a{
     color: var(--paragraphtext);
@@ -36,4 +37,22 @@ header nav ul li{
 }
 header nav ul li a{
     color: var(--navtext);
+}
+
+/* banner */
+.banner{
+    background: url(./assets/prism-background.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    height: 300px;
+}
+.banner p{
+    color: var(--sectiontext);
+    background-color: var(--bordercolor);
+    float: right;
+    margin: 250px 30px 20px 0 ;
+    display: inherit;
+    border-width: 3px;
+    border-style: solid;
+    border-color: yellow;
 }
