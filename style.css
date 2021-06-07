@@ -163,3 +163,44 @@ div nav ul li a{
     border-right: var(--text-default) solid;
     padding-right: 200px;
 }
+
+
+/* pseudo classes */
+.section-title:hover{
+    text-shadow: 5px 5px var(--header-dark) ;
+}
+.flex-item:hover{
+border: red 5px dotted
+}
+a:hover{
+    text-shadow: 2px 2px var(--header-dark);
+
+}
+
+
+/* Media Queries */
+/* 1024 */
+@media screen and (max-width: 1024px) {
+header, nav, section, div{
+    width: 100%;
+}
+span, h1, p, a{
+    font-size: 12px;
+}
+}
+/* 768 */
+@media screen and (max-width: 768px) {
+    header, nav, section, div{
+        width: 50%;
+    }
+    span, h1, p, a{
+        font-size: 12px;
+    }
+    }
+
+    /* 600 */
+@media screen and (max-width: 600px) {
+    header, nav, section, div{
+        width: 40%;
+    }
+    }
