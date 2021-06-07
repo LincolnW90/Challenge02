@@ -4,90 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Portfolio of Lincoln Weiss</title>
+    <title>Lincoln Weiss Portfolio</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- navigation -->
+    <!-- header/nav -->
     <header>
-        <!-- name and page reset -->
-        <h1>
-            Lincoln Weiss
-        </h1>
-        <!-- navigation -->
+        <h1 id="name">Lincoln Weiss</h1>
+        <!-- nav -->
         <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-            </ul>
+        <ul>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#work">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+            <li>
+                <a href="#resume">Resume-WIP</a>
+            </li>
+        </ul>
         </nav>
     </header>
 
     <!-- banner -->
-<section class="banner">
-    <h2>There are 10 types of people in the world. Those that understand binary, and false.</h2>
-</section>
+    <section class="banner">
+        <p>There are 10 types of people in the world. Those that know binary, and false.</p>
+    </section>
 
-<!-- about me -->
-<section class="primary" id="about-me">
-    <h1 class="section-title">About Me</h1>
-    <p class="left-border">Something interesting to begin</p> <br>
-    <p class="left-border final">Follow it up with something crazy</p>
-</section>
-
-
-
-<!-- work -->
-<section class="primary" id="about-me">
-    <h1 class="section-title work">Work</h1>
-    <div class="flexbox-container">
-        <!-- Horesion Flex first flex -->
-        <div class="flex-item first-flex-item ">
-            <span class="flex-span"><a href="https://lincolnw90.github.io/Challenge01/">Horiseon Mock-Up Page</a><Horiseon class="com"></span> <br>
-            <span class="flex-span"><a href="https://lincolnw90.github.io/Challenge01/">Basic HTML, CSS</a></span>
+    <!-- about me -->
+    <div class="primary">
+        <div class="section-title">
+            <h1 id="about-me">About Me</h1>
         </div>
-        <!-- go buddy flex -->
-        <div class="flex-item gobuddy">
-            <span class="flex-span"><a href="https://lincolnw90.github.io/Run-Buddy-Website/">Go Buddy!!</a></span><br>
-            <span class="flex-span"><a href="https://lincolnw90.github.io/Run-Buddy-Website/">HTML, Advanced CSS</a></span>
-        </div>
-        <!-- Empty Flex -->
-        <div class="flex-item placeholder">
-            <span class="flex-span"> Next Project goes here</span><br>
-            <span class="flex-span">It'll be amazing</span>
+        <div id="info-self">
+            <p>Welcome to my brand new professional portfolio!</p> <br>
+            <p>I've recently begun this journey into coding, and although it is still new to me, I am learing quickly</p> <br>
+            <p>I'm a Maine native, moved to Ohio to be near family after careers in both the Military and in Oil & Gas. Ready to have the next big adventure here!</p>
         </div>
     </div>
-</section>
 
-<!-- contact info -->
-<section class="primary" id="contact">
-    <h1 class="section-title contact-title"> Contact Info</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="tel:2075227029">207-522-7029</a>
-            </li>
-            <li>
-                <a href="mail.to:lincoln.t.weiss@gmail.com">lincoln.t.weiss@gmail.com</a>
-            </li>
-            <li>
-                <a href="https://github.com/LincolnW90/.git">GitHub</a>
-            </li>
+    <!-- work -->
+    <div class="primary">
+        <div class="section-title">
+            <h1 id="work">Work</h1>
+        </div>
+
+        <!-- start flex boxes -->
+        <div class="flex-container">
+              
+            <!-- first box large -->
+            <div class="flex-item first-flex">
+                <a href="https://lincolnw90.github.io/Challenge01/">
+                <div id="horesion">
+                </div>
+                </a>
+            </div>
+
+            <!-- run buddy -->
+            <div class="flex-item">
+                <a href="https://lincolnw90.github.io/Challenge01/">
+                <div id="runbuddy">
+                </div>
+                </a>
+            </div>
+
+            <!-- WIP/Future -->
+            <div class="flex-item">
+                <a href="">
+                <div id="WIP">
+                </div>
+                </a>
+            </div>
+        </div>
+       
+
+
+    </div>
+
+    <!-- contact -->
+
+    <div class="primary">
+        <div class="section-title" id="contact-me">
+        <h1 id="contact"> Contact Me</h1>
+        </div>
+        <nav>
+            <ul>
+            <li><a href="mailto:lincoln.t.weiss@gmail.com">lincoln.t.weiss@gmail.com</a></li>
+            <li><a href="phone:2075227029">207-522-7029</a></li>
+            <li><a href="https://lincolnw90.github.io/">GitHub</a></li>
+            </ul>
+        </nav>
+    </div>
+
     
-        </ul>
-    </nav>
-   
-</section>
 </body>
-
 </html>
